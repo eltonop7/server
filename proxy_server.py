@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("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")
 
 @app.route("/chat", methods=["POST"])
 def chat():
